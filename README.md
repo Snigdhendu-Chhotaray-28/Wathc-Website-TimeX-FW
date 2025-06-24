@@ -1,2 +1,23 @@
 # Wathc-Website-TimeX-FW
-TimeX is a modern, responsive website for showcasing premium watches. Built with HTML, CSS, and JavaScript, it features sleek UI, interactive animations, and smooth scrolling. Designed by Snigdhendu Chhotaray, it's ideal for product showcases and frontend development practice.
+<h2>⌚ TimeX – Premium Watch Website</h2>
+A stylish and responsive front-end website for TimeX, a modern watch brand. Designed with a sleek user interface and smooth user experience in mind, this project showcases luxury watch collections with engaging visuals, animations, and responsiveness across all devices.
+
+<h2>🚀 Features:</h2>
+<ul>
+    <li>Responsive and modern design<ul>
+    <li>
+    <li>Interactive product display</li>
+    <li>Smooth scroll and hover effects</li>
+    <li>Clean, structured HTML, CSS, and JavaScript</li>
+    <li>Optimized for both desktop and mobile users</li>
+</ul>
+
+<h2>🛠️ Tech Stack:</h2>
+<ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>Swiper.js (for sliders, if used)</li>
+
+👤 Creator:
+Snigdhendu Chhotaray
