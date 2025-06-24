@@ -5,7 +5,6 @@ A stylish and responsive front-end website for TimeX, a modern watch brand. Desi
 <h2>🚀 Features:</h2>
 <ul>
     <li>Responsive and modern design<ul>
-    <li>
     <li>Interactive product display</li>
     <li>Smooth scroll and hover effects</li>
     <li>Clean, structured HTML, CSS, and JavaScript</li>
