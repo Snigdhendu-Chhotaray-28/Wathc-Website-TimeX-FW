@@ -1,0 +1,99 @@
+/*=============== VARIABLES CSS ===============*/
+:root {
+
+    /*========== Colors ==========*/
+    --main-color: hsl(0, 0%, 97%);
+    --sub-color: hsl(0, 0%, 100%);
+    --eye-btn-clr : hsl(0, 0%, 0%);
+    --img-bg-color: hsl(31, 100%, 70%);
+    --button-color: hsl(0, 0%, 17%);
+    --button-color-alt: hsl(0, 0%, 8%);
+    --title-color: hsl(0, 0%, 11%);
+    --text-color: hsl(0, 0%, 18%);
+
+    /* ========== Txt size ========== */
+     --main-header-txt: 4vw;
+     --sub-header-txt: 34px;
+     --header-txt: 25px;
+     --intermediat-txt: 20px;
+     --higher_txt: 17px;
+     --mid-txt:16px;
+     --small-txt: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-color);
+}
+
+body{
+    overflow-x: hidden;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    width: 99.5vw;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: var(--mid-txt);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ========================= Header ========================= */
+.header{
+    background-color: var(--main-color);
+    height: 70px;
+    width: 50%;
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 5%;
+    gap: 20px;
+}
+.three_bar{
+    visibility: hidden;
+    background-color: var(--main-color);
+    font-size: 25px;
+    position: relative;
+    top: 22px;
+    left: -10px;
+    width: 30px;
+}
+.logo_div{
+    background-color: var(--main-color);
+    display: flex;
+}
+.Zeitwerk_logo{
+    background-color: var(--main-color);
+    height: 40px;
+    align-self: center;
+}
+.Zeitwerk_logo_txt{
+    background-color: var(--main-color);
+    align-self: center;
+}
+.header_menu{
+    background-color: var(--main-color);
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_link{
+    background-color: var(--main-color);
+    color: var(--eye-btn-clr);
+    text-decoration: none;
+    font-weight: 600;
+}
+.home{
+    color: #ffb769;
+}
+.bg_changer{
+    background-color: var(--main-color);
+    border: 0;
+    position: relative;
+    left: 117%;
+    font-size: 20px;
+    background-color: transparent;
+}
