@@ -16,7 +16,7 @@ A stylish and responsive front-end website for TimeX, a modern watch brand. Desi
     <li>HTML5</li>
     <li>CSS3</li>
     <li>JavaScript</li>
-    <li>Swiper.js (for sliders, if used)</li>
+    <li>Swiper.js (for sliders, if used)</li><br>
 
-👤 Creator:
+<h5>👤Creator:</h5>
 Snigdhendu Chhotaray
