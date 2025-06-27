@@ -97,3 +97,27 @@ html{
     font-size: 20px;
     background-color: transparent;
 }
+
+
+/* =========================== Home page =========================== */
+.homePage{
+    background-color: var(--main-color);
+    display: flex;
+}
+.homePage_div1_socialMedia{
+    display: flex;
+    position: relative;
+    transform: rotate(-90deg);
+    align-self: center;
+    background-color: transparent;
+    width: 4%;
+    margin-left: 6%;
+    margin-right: 9%;
+    margin-top: 100px;
+}
+.homePage_link{
+    color: var(--text-color);
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: transparent;
+}
