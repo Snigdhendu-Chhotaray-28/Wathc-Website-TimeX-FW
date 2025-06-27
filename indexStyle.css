@@ -121,3 +121,37 @@ html{
     margin-left: 20px;
     background-color: transparent;
 }
+.homePage_data{
+    background-color: var(--main-color);
+    margin-right: 15%;
+}
+.homePage_heading{
+    background-color: var(--main-color);
+    color: var(--title-color);
+    padding-top: 40px;
+    font-size: var(--main-header-txt);
+    font-weight: 600;
+}
+.home_description{
+    background-color: var(--main-color);
+    font-size: var(--mid-txt);
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 20px 0px 20px 0px;
+}
+.home_price{
+    background-color: var(--main-color);
+    font-size: var(--sub-header-txt);
+    color: #ffb769;
+    margin-bottom: 40px;
+    
+}
+.homePage_img{
+    background-color: var(--main-color);
+    background-color: #ffb769;
+    width: 300px;
+}
+.homePage_btn{
+    background-color: var(--main-color);
+    display: flex;
+}
