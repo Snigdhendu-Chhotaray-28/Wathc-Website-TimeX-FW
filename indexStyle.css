@@ -188,3 +188,41 @@ html{
     background-color: #ffb769;
     padding: 100px 50px 50px 50px ;
 }
+
+
+/* ===================== Featured page ==================== */
+
+.featured_page{
+    background-color: var(--main-color);
+    width: 100%;
+}
+.featured_page_header{
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 100px 0px;
+    font-size: var(--header-txt);
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.featured_page_sale_btn{
+    background-color: #ffb769;
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    transform: rotate(-90deg);
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+.featured_page_productList{
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    gap: 20px;  
+}
