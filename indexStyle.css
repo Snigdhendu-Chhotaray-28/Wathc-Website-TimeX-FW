@@ -226,3 +226,37 @@ html{
     justify-content: center;
     gap: 20px;  
 }
+.featured_page_classic_black{
+    background-color: var(--sub-color);
+    padding-bottom: 20px;
+}
+.featured_page_productImg_div{
+    height: 75%;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.featured_page_productImg{
+    width: 300px;
+    position: relative;
+    background: transparent;
+}
+.featured_page_productName{
+    color: var(--title-color);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    background-color: transparent
+}
+.featured_page_productPrice{
+    font-weight: 600;
+    font-size: var(--mid-txt);
+    color: #ffb769;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: transparent;
+}
