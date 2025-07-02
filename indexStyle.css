@@ -205,7 +205,6 @@ html{
     font-weight: 600;
     color: var(--title-color);
 }
-
 .featured_page_sale_btn{
     background-color: #ffb769;
     height: 30px;
@@ -259,4 +258,52 @@ html{
     justify-content: center;
     margin: 20px;
     background-color: transparent;
+}
+.featured_page_img_div{
+    margin-left: 7%;
+    width: 35%;
+    background-color: #ffb769;
+}
+.featured_page_content{
+    background-color: var(--main-color);
+    padding-top: 150px;
+    display: flex;
+}
+.featured_page_img{
+    width: 100%;
+    position: relative;
+    left: 10%;
+    top: -40px;
+}
+.featured_page_content_description{
+    background-color: var(--main-color);
+    width: 30%;
+    padding-top: 40px;
+    padding-left: 16%;
+}
+.featured_page_story{
+    background-color: var(--main-color);
+    font-size: var(--header-txt);
+    color: var(--title-color);
+}
+.featured_page_story_heading{
+    background-color: var(--main-color);
+    color: var(--title-color);
+    font-size: var(--sub-header-txt);
+    margin: 50px 0px 20px 0px;
+}
+.featured_page_story_description{
+    background-color: transparent;
+}
+.featured_page_discover{
+    color: white;
+    background-color: #252525;
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 4px;
+    margin-top: 50px;
 }
