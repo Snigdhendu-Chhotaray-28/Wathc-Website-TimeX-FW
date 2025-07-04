@@ -334,3 +334,27 @@ html{
     margin:0% 0%;
     gap: 3%;
 }
+.products_page_div1_div{
+    padding-top: 5%;
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+    background-color: var(--sub-color);
+    border-radius: 20px;
+}
+.products_page_img_div{
+    background-color: transparent;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.products_page_img{
+    background-color: transparent;
+    width: 350px;
+}
+.classics_pairs_img{
+    width: 190px;
+    margin: 0px 80px 0px 80px;
+}
+
