@@ -357,3 +357,21 @@ html{
     width: 190px;
     margin: 0px 80px 0px 80px;
 }
+.roducts_page_img_txt_div{
+    background-color: transparent;
+    padding-top: 15px;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.products_page_img_name{
+    background-color: transparent;
+    color: var(--title-color);
+    display: flex;
+    justify-content: center;
+    font-size: var(--small-txt);
+    font-weight: 600;
+    align-self: center;
+}
