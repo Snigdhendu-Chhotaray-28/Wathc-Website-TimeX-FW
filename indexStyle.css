@@ -375,3 +375,25 @@ html{
     font-weight: 600;
     align-self: center;
 }
+.products_page_img_price{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: var(--higher_txt);
+    font-weight: 600;
+    background-color: transparent;
+    color: #ffb769;
+}
+.timex_e_class_btn{
+    background-color: var(--sub-color);
+    border-color: transparent;
+    font-size: var(--small-txt);
+}
+
+.link{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: -5%;
+    background-color: transparent;
+}
