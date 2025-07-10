@@ -397,3 +397,30 @@ html{
     left: -5%;
     background-color: transparent;
 }
+
+
+/* ============= Artcle : Productas page ============= */
+
+.artcle_page{
+    background-color: var(--main-color);
+    margin-top: 70px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.prartcle_page_section_left{
+    background-color: var(--main-color);
+}
+.artcle_page_section_left_1st_icon{
+    background-color: var(--main-color);
+    font-size: var(--intermediat-txt);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+.artcle_page_section{
+    display: flex;
+}
