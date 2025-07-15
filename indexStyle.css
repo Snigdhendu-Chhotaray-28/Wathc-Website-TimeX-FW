@@ -499,3 +499,39 @@ html{
 .fa-regular{
     border-radius: 40px;
 }
+
+/* ================== New Aeeivals ================== */
+
+.new_arrival{
+    background-color: var(--main-color);
+    margin: 0% 10%;
+    padding: 0px 15px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    overflow: hidden;
+}
+.new_arrival_heading{
+    background-color: var(--main-color);
+    font-size: var(--sub-header-txt);
+    font-weight: 600;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.new_arrival_products_div{
+    background-color: var(--main-color);
+    /* display: flex;
+    justify-content: center; */
+    /* gap: 5%; */
+}
+.new_arrival_product{
+    height: 377px;
+    background-color: var(--sub-color);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px hsla(0, 0%, 10%, .1);
+}
+
