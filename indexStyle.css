@@ -672,3 +672,44 @@ html{
     font-size: var(--mid-txt);
     font-weight: 600;
 }
+.footer_down{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7%;
+}
+.footer_down_heading{
+    color: var(--title-color);
+    font-size: var(--higher_txt);
+    margin-bottom: 10%;
+}
+.footer_down_content{
+    line-height: 180%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 100%;
+}
+.our_info_content{
+    line-height: 190%;
+}
+.about_us_content{
+    padding-top: 8px;
+}
+.product_footer_content{
+    padding-top: 17px;
+}
+.footer_link{
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.social_icons{
+    display: flex;
+    gap: 20px;
+}
+.footer__copy{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0% 1% 0%;
+}
