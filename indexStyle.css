@@ -615,3 +615,60 @@ html{
 .fa-solid{
     color: var(--eye-btn-clr);
 }
+
+
+/* =================== Footer =================== */
+.footer{
+    margin: 7% 7% 0% 7%;
+}
+
+/* =================== Footer - Up =================== */
+.footer_up{
+    background-color: var(--img-bg-color);
+    display: flex;
+    gap: 5%;
+    width: 100%;
+}
+.footer_description{
+    background-color: transparent;
+    margin: 5%;
+    width: 40%;
+}
+
+.footer_description_header{
+    color: var(--title-color);
+    padding-bottom: 20px;
+    background-color: transparent;
+    font-size: var(--sub-header-txt);
+    font-weight: 600;
+}
+.footer_description_content{
+    background-color: transparent;
+}
+.footer_up_contact{
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: flex-start;
+}
+.email_id{
+    color: var(--text-color);
+    height: 65px;
+    width: 300px;
+    border-width: 0;
+    padding-left: 10px;
+    font-size: var(--mid-txt);
+}
+
+.subscribe_btn{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    height: 65px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--mid-txt);
+    font-weight: 600;
+}
