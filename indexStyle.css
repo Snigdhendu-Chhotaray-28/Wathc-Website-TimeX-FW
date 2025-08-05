@@ -616,7 +616,6 @@ html{
     color: var(--eye-btn-clr);
 }
 
-
 /* =================== Footer =================== */
 .footer{
     margin: 7% 7% 0% 7%;
@@ -712,4 +711,15 @@ html{
     display: flex;
     justify-content: center;
     margin: 2% 0% 1% 0%;
+}
+
+/* ==================== Copy right Section ==================== */
+.footer__copy{
+    font-family: monospace;
+}
+.portfolio{
+    cursor: pointer;
+    border: 0;
+    color: var(--text-color);
+    font-family: monospace;
 }
