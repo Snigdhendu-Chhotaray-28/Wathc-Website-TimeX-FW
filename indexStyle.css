@@ -801,3 +801,31 @@ html{
     transition: all 0.7s ease-out 0s;
 }
 
+/* <================= Explor btn clr and Backgroung clr ================> */
+
+.new_arrival_product:hover .new_arrival_product_txt_explor{
+    visibility: visible;
+    background-color: black;
+    color: white;
+    transition: all 0.8s ease-out 0.26s;
+    border: 0;
+}
+
+.artcle_move_right_reverce{
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0%;
+    transition: all 5s ease-out 0.3s;
+}
+.artcle_move_left_reverce{
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0%;
+    transition: all 5s ease-out 0.3s;
+}
+
+
+
+
