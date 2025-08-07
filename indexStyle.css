@@ -747,3 +747,57 @@ html{
     background-color: #febb74;
 }
 
+
+
+
+
+
+/*     < ============== Animation with CSS ============== >    */
+
+
+/* <========= Featured page hover effect(increase div size) =========> */
+/* <==================== For all the 3 divs ====================> */
+.featured_page_classic_black:hover{
+    box-shadow: 0 8px 32px hsla(0, 0%, 10%, .1);
+    transform: scale(1.05,1.05);
+    transition: transform 0.8s ease-in 0s;
+}
+
+
+/* <========== Products page hover effect(increase div size) ==========> */
+/* <==================== For all the 6 divs ====================> */
+
+.products_page_div1_div:hover{
+    box-shadow: 0 8px 32px hsla(0, 0%, 10%, .1);
+    transform: scale(1.05,1.05);
+    transition: transform 0.8s ease-in 0s;
+}
+.artcle_page_section1_left_1st_icon{
+    box-shadow: 0 8px 32px hsla(0, 0%, 10%, .1);
+}
+
+
+/* <================ New Arrival page hover effect ================> */
+
+/* <==================== New btn Background clr ====================> */
+
+.new_arrival_product:hover .new_arrival_product_new{
+    background-color: black;
+    transition: all 0.7s ease-out 0s;
+}
+
+/* <==================== Product div Background clr ====================> */
+
+.new_arrival_product:hover{
+    background-color: var(--img-bg-color);
+    padding: 2rem 0 4.5rem 0;
+    transition: all 0.4s ease-out 0s;
+}
+
+/* <==================== Product cost clr ====================> */
+
+.new_arrival_product:hover .new_arrival_product_txt_cost{
+    color: black;
+    transition: all 0.7s ease-out 0s;
+}
+
