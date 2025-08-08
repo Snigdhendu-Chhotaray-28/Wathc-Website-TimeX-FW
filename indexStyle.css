@@ -846,3 +846,12 @@ html{
         margin-top: 60px;
     }
 }
+@media(max-width: 1171px){
+    .new_arrival_product_img_div{
+        display: flex;
+        justify-content: center;
+    }
+    .up_swipe_arrow_div{
+        margin-left: 93%;
+    }
+} 
