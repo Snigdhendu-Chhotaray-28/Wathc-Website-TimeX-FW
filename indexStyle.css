@@ -855,3 +855,13 @@ html{
         margin-left: 93%;
     }
 } 
+@media(max-width: 1047px) {
+    .featured_page_content_description{
+        padding-top: 0;
+    }
+}
+@media (max-width: 1004px){
+    .homePage_img{
+        width: 250px;
+    }
+}
