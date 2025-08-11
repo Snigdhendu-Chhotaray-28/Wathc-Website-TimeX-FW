@@ -1122,3 +1122,83 @@ html{
         left: 60px;
     }
 }
+@media(max-width: 648px){
+    .featured_page_discover{
+        top: -8vw;
+    }
+}
+@media(max-width: 640px){
+    .bg_changer{
+        left: 50px;
+    }
+    .footer_down{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 divs per row */
+        gap: 10px;
+    }
+    .footer_up_contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .email_id{
+        width: 120%;
+    }
+}
+@media(max-width: 615px){
+    .homePage{
+        width: 80vw;
+    }
+    .home_price{
+        top: -40px;
+    }
+    .home_discover_btn,
+    .home_onlineStore_btn{
+        position: relative;
+        top: -120px;
+        z-index: 2;
+    }
+    .homePage_heading{
+        font-size: 6vw;
+    }
+    .homePage_img_div{
+        height: auto;
+        width: auto;
+        left: -200px;
+    }
+    .homePage_img{
+        width: 40vw;
+    }
+    .home_description{
+        top: 350px;
+    }
+    .featured_page_header{
+        margin-top: 220px;
+    }
+    .featured_page_discover{
+        top: -12vw;
+    }
+    .artcle_page{
+        margin: 7% 3% 0% 4%;
+    }
+    .artcle_page_section_left_body{
+        width: 45vw;
+    }
+    .artcle_page_section_img_div{
+        width: 35vw;
+    }
+    .artcle_page_section_img{
+        width: 35vw;
+        left: -23px;
+        top: 25px;
+    }
+    .artcle_page_navigation_div{
+        margin-left: 100px;
+    }
+    .up_swipe_arrow_div{
+        margin-left: 90%;
+    }
+    .footer{
+        width: 80%;
+        margin: 0% 10% 0% 10%;
+    }
+}
