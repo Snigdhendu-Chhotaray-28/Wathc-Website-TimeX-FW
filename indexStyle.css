@@ -1412,3 +1412,16 @@ html{
     }
 }
 
+
+
+
+
+.menu_visibile{
+    left : -150px;
+    width : 100px;
+    padding-top : 30px;
+    padding-left : 50px;
+    padding-right : 50px;
+    background-color: #fff4d1d0;
+    transition: all 1s ease-in 0s;
+}
