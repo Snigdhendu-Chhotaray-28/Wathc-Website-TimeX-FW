@@ -1374,3 +1374,41 @@ html{
         left: 9vw;
     }
 }
+@media(max-width: 365px){
+    .homePage_img_div{
+        left: -250px;
+    }
+    .home_price{
+        font-size: 20px;
+    }
+    .home_discover_btn,
+    .home_onlineStore_btn{
+        top: -50px;
+    }
+    .home_description{
+        width: 80vw;
+    }
+    .featured_page_header{
+        margin-top: 300px;
+        margin-bottom: 50px;
+    }
+    .new_arrival_product,
+    .new_arrival_product_txt_cost,
+    .new_arrival_product_txt_product_name{
+        overflow: hidden;
+    }
+    .up_swipe_arrow_div{
+        margin-left: 85vw;
+    }
+}
+@media (max-width: 330px) {
+    .bg_changer{
+        left: 145vw;
+    }
+}
+@media (max-width: 300px) {
+    .bg_changer{
+        left: 152vw;
+    }
+}
+
