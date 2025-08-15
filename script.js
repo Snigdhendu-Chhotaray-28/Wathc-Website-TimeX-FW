@@ -153,3 +153,9 @@ function swiperfn(){
   });
 }
 swiperfn();
+
+function ourStory_img_div_size(){
+  let featured_page_img_div_var = document.querySelector('.featured_page_img_div');
+  featured_page_img_div_var.style.height = document.querySelector('.featured_page_img').offsetHeight+"px";
+}
+ourStory_img_div_size()
