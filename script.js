@@ -231,3 +231,19 @@ function bg_change_color(){
 bg_change_color();
 
 
+
+function up_swipe_arrow_div_fn(){
+  document.addEventListener('scroll', () => {
+    let up_swipe_arrow_div_var = document.querySelector('.up_swipe_arrow_div');
+    let distance_from_top = up_swipe_arrow_div_var.offsetTop;
+    let up_swipe_arrow_var = document.querySelector('.up_swipe_arrow_div');
+    if(distance_from_top > 1400){
+      up_swipe_arrow_var.style.visibility = 'visible';
+    }
+    else{
+      up_swipe_arrow_var.style.visibility = 'hidden';
+    }
+  });
+}
+up_swipe_arrow_div_fn()
+
