@@ -190,3 +190,44 @@ function max_width1_new_arrivalfn(){
   let new_arrival_product_img = document.querySelectorAll('.new_arrival_product_img');
 }
 max_width1_new_arrivalfn();
+
+// ================== Dark mode and light mode fn ================== //
+
+function bg_change_color(){
+
+  let isDarkMood = false
+  const mood_changer = document.querySelector('.mood');
+  const root = document.documentElement;
+
+  mood_changer.addEventListener("click",()=>{
+    isDarkMood = !isDarkMood;
+
+    if(isDarkMood){
+    
+      root.style.setProperty('--main-color', 'black');
+      root.style.setProperty('--sub-color', 'hsl(0, 0.00%, 11.40%)');
+      root.style.setProperty('--eye-btn-clr', 'white');
+      root.style.setProperty('--title-color', 'white');
+      root.style.setProperty('--text-color', 'hsl(0, 0.00%, 90.60%)');
+
+      mood_changer.classList.add('fa-sun');
+      mood_changer.classList.remove('fa-moon');
+      mood_changer.style.color = 'white';
+    }
+
+    else{
+      root.style.setProperty('--main-color', 'hsl(0, 0%, 97%)');
+      root.style.setProperty('--sub-color', 'hsl(0, 0%, 100%)');
+      root.style.setProperty('--eye-btn-clr', 'black');
+      root.style.setProperty('--title-color', 'hsl(0, 0%, 11%)');
+      root.style.setProperty('--text-color', 'hsl(0, 0%, 18%)');
+
+      mood_changer.classList.add('fa-moon');
+      mood_changer.classList.remove('fa-sun');
+      mood_changer.style.color = 'black';
+    }
+  });
+}
+bg_change_color();
+
+
