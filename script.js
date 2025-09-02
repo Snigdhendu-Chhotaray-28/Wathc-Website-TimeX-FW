@@ -247,3 +247,12 @@ function up_swipe_arrow_div_fn(){
 }
 up_swipe_arrow_div_fn()
 
+function artcle_page_section_img_div_height_adjustment(){
+  if(window.innerWidth < 800){
+    document.querySelector('.artcle_page_section_img_div').style.height = document.querySelector('.artcle_page_section_img').offsetHeight+"px";
+  }
+}
+artcle_page_section_img_div_height_adjustment();
+
+
+
