@@ -282,3 +282,28 @@ function max_width1_new_arrivalfn_adjustment(){
 max_width1_new_arrivalfn_adjustment();
 
 
+function max_width1_new_arrivalfn_adjustment2(){
+    let window_width = window.innerWidth;
+    if(window_width < 587){
+    
+    var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      "@0.00": {
+        slidesPerView: 1.5,
+        spaceBetween: 10,
+      },
+    }, 
+  });
+  }
+  let new_arrival_product_img = document.querySelectorAll('.new_arrival_product_img');
+}
+max_width1_new_arrivalfn_adjustment2();
+
+
+
