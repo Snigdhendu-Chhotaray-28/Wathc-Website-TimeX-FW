@@ -328,3 +328,20 @@ function max_width1_new_arrivalfn_adjustment3(){
 }
 max_width1_new_arrivalfn_adjustment3();
 
+function footer_visibility(){
+  if(window.innerWidth < 785){
+    let footer_down_div_vars = document.querySelectorAll('.footer_down_div');
+    footer_down_div_vars.forEach((footer_down_div_var)=>{
+      footer_down_div_var.querySelector('.footer_down_content').classList.add('hidden');
+      footer_down_div_var.addEventListener('mouseenter',()=>{
+        footer_down_div_var.querySelector('.footer_down_content').classList.remove('hidden');
+      });
+      footer_down_div_var.addEventListener('mouseleave',()=>{
+        footer_down_div_var.querySelector('.footer_down_content').classList.add('hidden');
+      });
+    });
+  }
+}
+footer_visibility();
+
+
