@@ -345,3 +345,28 @@ function footer_visibility(){
 footer_visibility();
 
 
+function three_bar_active(){
+  let three_bar = document.querySelector('.three_bar');
+  let header_menu = document.querySelector('.header_menu');
+  
+  three_bar.addEventListener('click',(e)=>{
+    // e.stopProp agation(); // Prevent click from bubbling up
+    setTimeout(()=>{
+      header_menu.classList.add('menu_visibile');
+    },0);
+    document.querySelector('.bg_changer').style.display = "none";
+  });
+  
+  document.addEventListener('scroll',()=>{
+    nav_bar_dissapior();
+  });
+
+  // Modified click handler - only close if clicking outside menu
+  document.addEventListener('click',(e)=>{
+    // Check if click is outside the menu and not on three_bar
+    if(!header_menu.contains(e.target) && e.target !== three_bar) {
+      nav_bar_dissapior();
+    }
+  });
+}
+three_bar_active();
