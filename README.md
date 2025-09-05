@@ -20,3 +20,5 @@ A stylish and responsive front-end website for TimeX, a modern watch brand. Desi
 
 <h5>👤Creator:</h5>
 Snigdhendu Chhotaray
+
+Live preview : https://watch-timex-by-snigdhendu.netlify.app/
