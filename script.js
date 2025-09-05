@@ -370,3 +370,9 @@ function three_bar_active(){
   });
 }
 three_bar_active();
+
+let nav_bar_dissapior = ()=>{
+  let header_menu = document.querySelector('.header_menu');
+  header_menu.classList.remove('menu_visibile');
+  document.querySelector('.bg_changer').style.display = "flex";
+};
